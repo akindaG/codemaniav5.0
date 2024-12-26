@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Codemania V5.0</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js" defer></script>
+
+    <style>
+        body {
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #2fbe83;
+            height: 20vh;
+            background-image: url("background2.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        
+        header {
+            background: #100a0a;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        main {
+            padding: 2rem;
+            max-width: 700px;
+            margin: 2rem auto;
+            background: #160e0e;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .competition-details, .rules, .register {
+            padding: 1rem;
+            margin-bottom: 2rem;
+
+        }
+        .register button {
+            display: inline-block;
+            padding: 0.8rem 4.5rem;
+            color: #fff;
+            background-color: #11905b;
+            border: none;
+            border-radius: 50px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+        .register button:hover {
+            background-color: #2bae96;
+        }
+        /* Team Section */
+        .team {
+        padding: 2rem;
+        }
+
+        .team h2 {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+        }
+
+        .team-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+        }
+
+        .team-member {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        padding: 1rem;
+        width: 250px;
+        transition: transform 0.3s ease;
+        }
+
+        .team-member img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 1rem;
+        }
+
+        .team-member h3 {
+        margin: 0.5rem 0;
+        font-size: 1.2rem;
+        color: #333;
+        }
+
+        .team-member p {
+        margin: 0;
+        color: #777;
+        }
+
+        .team-member:hover {
+        transform: translateY(-5px);
+        
+        }
+
+        footer {
+            background: #333;
+            color: #3f9a82;
+            text-align: center;
+            padding: 1rem 10;
+            position:floating;
+            bottom: 100;
+            width: 100%;
+            height: 4%;
+        }
+        nav {
+            position: fixed;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(162, 182, 168, 0.593);
+            border-radius: 25px;
+            padding: 10px 100px;
+            z-index: 1000;
+        }
+        nav ul {
+            list-style:none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+        }
+        nav ul li {
+            margin: 0 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            text-decoration: none;
+        }
+    </style>
+    
+
+    <nav>
+        <ul>
+            <li style="margin-right: auto;"><a href="index.html"><img src="images/IEEE-CS_LogoTM-White.png" alt="Home" width="30" height="30"></a></li>
+            <li><a href="timeline.html">Timeline</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            
+        </ul>
+    </nav>
+    
+</head>
+<body>
+    <header>
+        <h1><img src="images/Codemania_logo25.png" alt="Description of image" width="600" height="300"></h1>
+        
+    </header>
+
+    <main>
+        <section class="team">
+            <h2>Meet Our Team</h2>
+            <div class="team-container">
+                <!-- Person 1 -->
+                <div class="team-member">
+                    <img src="images/Geeth Rangika - Project CO- CHAIR.jpg" alt="Person 1">
+                    <h3>Geeth Rangika</h3>
+                    <p> Project CO- CHAIR</p>
+                </div>
+                
+                <!-- Person 2 -->
+                <div class="team-member">
+                    <img src="images/Vimarshana Kithmini - PROJECT CO-CHAIR.jpg" alt="Person 2">
+                    <h3>Vimarshana Kithmini </h3>
+                    <p> Project CO- CHAIR</p>
+                </div>
+                
+                <!-- Person 3 -->
+                <div class="team-member">
+                    <img src="images/Chanuthi Minothma - Project Secretary.jpg" alt="Person 3">
+                    <h3>Chanuthi Minothma</h3>
+                    <p>Project Secretary</p>
+                </div>
+            </div>
+        </section>
+        <div id="contact">
+            <div class="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="contact-left">
+                            <h1 class="sub-title">Contact Us</h1>
+                            <p>If you have any questions, feel free to reach out to us.</p>
+                            <p><i class="fa-solid fa-paper-plane"></i> prabhasha.aravinda@gmail.com</p>
+                            <p><i class="fa-solid fa-square-phone"></i> +94770072967</p>
+                            <div class="social-icons">
+                                <a href="https://www.facebook.com/profile.php?id=61557430152468&mibextid=ZbWKwL">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                                <a href="https://www.instagram.com/_._avii/profilecard/?igsh=MWZjbDBucDd1eW83OA==">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="https://x.com/PAravinda60071?t=9w9ufmHYqO6exlmSRrY7ig&s=09">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/prabhasha-aravinda-687325268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="contact-right">
+                            <form name="submit-to-google-sheet">
+                                <input type="text" name="Name" placeholder="Your Name" required>
+                                <input type="email" name="Email" placeholder="Your Email" required>
+                                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                                <button type="submit" class="btn btn2" style="background-color: #008366; color: white;">Submit</button>
+                            </form>
+                            <span id="msg"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+    </main>
+    <img src="images\background1.png" alt="Scroll Image" class="scroll-image">
+    <footer>
+        <p>&copy; 2025 Coding Competition. All Rights Reserved.</p>
+        
+    </footer>
+    <script>
+        window.addEventListener('scroll', function() {
+            document.body.classList.toggle('scrolled', window.scrollY > 0);
+        });
+    </script>
+</body>
+</html>

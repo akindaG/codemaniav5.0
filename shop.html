@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - Codemania V5.0</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS file -->
+    <!-- Link to external JavaScript file -->
+    <script src="C:\Users\User\Documents\Codemania Basic code\script.js" defer></script>
+
+    <nav>
+        <ul>
+            <li style="margin-right: auto;"><a href="index.html"><img src="images/IEEE-CS_LogoTM-White.png" alt="Home" width="30" height="30"></a></li>
+            <li><a href="timeline.html">Timeline</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    
+</head>
+<body>
+    <header>
+        <h1><img src="images/Codemania_logo25.png" alt="Description of image" width="600" height="300"></h1>
+    </header>
+    <main>
+        <style>
+            body {
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+                line-height: 1.6;
+                margin: 0;
+                padding: 0;
+                background-color: #2fbe83;
+                height: 20vh;
+                background-image: url("background2.jpg");
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+            }
+            
+            header {
+                background: #100a0a;
+                color: #fff;
+                padding: 1rem 0;
+                text-align: center;
+            }
+            header h1 {
+                margin: 0;
+                font-size: 2.5rem;
+            }
+            main {
+                padding: 2rem;
+                max-width: 700px;
+                margin: 2rem auto;
+                background: #160e0e;
+                border-radius: 20px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+            .competition-details, .rules, .register {
+                padding: 1rem;
+                margin-bottom: 2rem;
+
+            }
+            .register button {
+                display: inline-block;
+                padding: 0.8rem 4.5rem;
+                color: #fff;
+                background-color: #11905b;
+                border: none;
+                border-radius: 50px;
+                font-size: 1rem;
+                cursor: pointer;
+            }
+            .register button:hover {
+                background-color: #2bae96;
+            }
+            footer {
+                background: #333;
+                color: #3f9a82;
+                text-align: center;
+                padding: 1rem 10;
+                position:floating;
+                bottom: 100;
+                width: 100%;
+                height: 4%;
+            }
+            nav {
+                position: fixed;
+                top: 10px;
+                left: 50%;
+                transform: translateX(-50%);
+                background: rgba(162, 182, 168, 0.593);
+                border-radius: 25px;
+                padding: 10px 100px;
+                z-index: 1000;
+            }
+            nav ul {
+                list-style:none;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                align-items: center;
+            }
+            nav ul li {
+                margin: 0 20px;
+            }
+            nav ul li a {
+                color: #fff;
+                text-decoration: none;
+            }
+            nav ul li a:hover {
+                text-decoration: none;
+            }
+        </style>
+        
+        <section>
+            <h2>Shop</h2>
+            <p>Purchase official Codemania merchandise here.</p>
+        </section>
+        <section>
+            <h2>Available Products</h2>
+            <ul>
+                <li>T-shirt: $20</li>
+                <li>Mug: $10</li>
+                <li>Sticker Pack: $5</li>
+            </ul>
+        </section>
+    </main>
+    <img src="images\background1.png" alt="Scroll Image" class="scroll-image">
+    <footer>
+        <p>&copy; 2025 Coding Competition. All Rights Reserved.</p>
+    </footer>
+    <script>
+        window.addEventListener('scroll', function() {
+            document.body.classList.toggle('scrolled', window.scrollY > 0);
+        });
+    </script>
+</body>
+</html>
